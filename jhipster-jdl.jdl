@@ -1,0 +1,21 @@
+entity 
+Employee {
+		employeeId Long,
+		employeeName String,
+		title String,
+		businessUnit String,
+		place String,
+		supervisorId Long,
+		competencies String,
+		salary Double
+	}
+
+// Use Data Transfert Objects (DTO)
+// dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl
+
+// Set an angular suffix
+// angularSuffix * with mySuffix
+
